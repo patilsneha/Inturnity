@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+
+# User information and backups
+portal_docs/users.csv
+portal_docs/users_backup*.csv
+portal_docs/users_repaired.csv
+portal_docs/*backup*
+
+# Generated embeddings
+portal_docs/*.pkl
+
+# IDE and system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+repair_users.py
